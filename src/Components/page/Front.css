@@ -1,0 +1,7 @@
+.coin-heading{
+    display: flex;
+    width: 100%;
+}
+.coin-heading h3{
+    margin-right: 40px;
+}
