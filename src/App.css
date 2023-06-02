@@ -6,6 +6,7 @@
   color: white;
 }
 .father{
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,11 +15,29 @@
 }
 form{
   margin-top: 20px;
-  width: 80%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 form input{
   width: 70%;
+  display: flex;
   padding: 15px;
   border: 2px solid white;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width:950px){
+  .father{
+    width: 100%;
+    overflow-x: scroll;
+    padding: 10px;
+  }
+  .coinss{
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+  }
 }
